@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.Rain</groupId>
+  <artifactId>TestClient</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>TestClient</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+	<dependency>
+	   <groupId>org.testng</groupId>
+	   <artifactId>testng</artifactId>
+	   <version>6.8.8</version>
+	   <scope>test</scope>
+	</dependency>
+	<!-- 配置httpclient -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient</artifactId>
+	    <version>4.5.2</version>
+	</dependency>
+	
+	
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpmime</artifactId>
+	    <version>4.5.2</version>
+	</dependency>
+	<!-- 配置feed4testng框架 -->
+<dependency>
+    <groupId>org.databene</groupId>
+    <artifactId>feed4testng</artifactId>
+    <version>0.6.2</version>
+</dependency>
+    
+<dependency>
+	<groupId>org.slf4j</groupId>
+	<artifactId>slf4j-log4j12</artifactId>
+	<version>1.7.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.uncommons</groupId>
+    <artifactId>reportng</artifactId>
+    <version>1.1.4</version>
+</dependency>
+
+<dependency>
+    <groupId>velocity</groupId>
+    <artifactId>velocity</artifactId>
+    <version>1.5</version>
+</dependency>
+
+<dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>3.0</version>
+</dependency>
+	
+	
+	
+  </dependencies>
+</project>
